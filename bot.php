@@ -7,18 +7,18 @@
  * - Live TOTAL / SUCCESS / FAILED + Success & Rejected PDFs
  */
 
-define('BOT_TOKEN', '9072361025:AAFFYxTPtPLMgwABpre7tIN9A2ds-j5-cqg');
+define('BOT_TOKEN', '9007102315:AAFgO1DswluchSHcs7cQlv2u4s-4LNzDAiM');
 define('API_BASE', 'https://api.telegram.org/bot' . BOT_TOKEN . '/');
 
 define('ADMIN_ID', 8447852036);
 define('DATA_DIR', __DIR__ . '/data');
 
 // Apni APIs yahan set karein:
-define('SITE_REFER_URL', '');
-define('LOGIN_API_URL', '');
-define('CHANGE_PASS_API_URL', '');
+define('SITE_REFER_URL', 'https://www.lotus365.bio/');
+define('LOGIN_API_URL', 'https://click11.hurry2.net/api/user-login');
+define('CHANGE_PASS_API_URL', 'https://click11.hurry2.net/api/change-my-password');
 
-define('PAGE_SIZE', 8);
+define('PAGE_SIZE', 10);
 define('MAX_NUMBERS_PER_RUN', 2000);
 define('PROGRESS_INTERVAL', 1.5);
 define('WORKER_SECRET', 'wsec_' . hash('sha256', BOT_TOKEN . '|l365_pass_clean_v2'));
